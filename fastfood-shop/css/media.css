@@ -6,7 +6,7 @@
         font-size: 25px;
     }
 }
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1300px){
     header .header_wrapper.main {
         width: 75%;
     }
@@ -188,7 +188,7 @@
         margin-left: 0;
     }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 900px){
     .btn {
         margin-left: 25%
     }
@@ -464,7 +464,7 @@
     }
 
 }
-@media screen and (max-width: 575px){
+@media screen and (max-width: 700px){
 
     header .title {
         font-size: 36px;     	
