@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+                Радуга
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="icons/favicon.ico">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/media.css">
+    </head>
+    <body>
+<header>
+        
+                <div class="header_wrapper">
+                        <div class="header_title main">
+                                <div class="header__item tittle">
+                                        <div class="header__item_name title">
+                                            <div class="hz"><a class="link currect" href="../index.html">Радуга</a></div>
+                                            <div class="hz mobile"><a class="link currect" href="payment.html">Корзина</a></div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="header_menu">
+                                <div class="header__item main">
+                                        <div class="header__item_name">
+                                                <a class="link" href="../index.html">Главная</a>
+                                        </div>          
+
+                                </div>
+                                <div class="header__item">
+         
+                                        <div class="header__item_name ">
+                                                <a class="link " href="menu_main.html">Меню</a>
+                                        </div> 
+                                </div>
+                                <div class="header__item">  
+                                        <div class="header__item_name">
+                                                <a class="link " href="contacts.html">Контакты</a>
+                                        </div> 
+                                </div>
+                                <div class="header__item">    
+                                        <div class="header__item_name">
+                                                <a class="link " href="promo.html">Акции</a>
+                                        </div>
+                                </div>
+                                
+                        </div>
+                        <div class="shop">
+                            <div class="header__item main">    
+                                        
+                                <div class="header__item_name ">
+                                
+                                        <a class="link currect" href="payment.html">Корзина</a>
+                                </div>
+                        </div> 
+                        </div>
+                        
+                </div>
+        
+        
+        <div class="line"></div>
+        <div class="space"></div>
+</header>
+
+<section class="payment">
+    <div class="container">
+        <div class="payment_wrapper">
+            <div class="payment_input">
+                <h2 class="subtitle">Заполните информацию о получателе</h2>
+                <div class="payment_form">
+                    <div class="payment_form_items">
+                        <div class="payment_form_item">
+                            <label for="name">ФИО</label>
+                            <input type="text" id="name" placeholder="Введите ФИО">
+                        </div>
+                        <div class="payment_form_item">
+                            <label for="phone">Телефон</label>
+                            <input type="text" id="phone" placeholder="Введите телефон">
+                        </div>
+                        <div class="payment_form_item">
+                            <label for="email">Email</label>
+                            <input class="email" type="text" id="email" placeholder="Введите email">
+                        </div>
+                        <div class="payment_form_item">
+                            <label for="address">Комментарий</label>
+                            <input class="comment" type="text" id="address" placeholder="Комментарий к заказу">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment_settings">
+                <div class="payment_setting_item">
+                    <label for="delivery" class="delivery">Способ доставки</label>
+                    <div class="payment_setting_btns">
+                        <button class="btn setting_btn">Курьер</button>
+                        <button class="btn setting_btn">Самовывоз</button>
+                    </div>
+                    
+                </div>
+                <div class="payment_setting_item">
+                    <label for="pay" class="pay">Способ оплаты</label>
+                    <div class="payment_setting_btns">
+                        <button class="btn setting_btn">Наличные</button>
+                        <button class="btn setting_btn">Карта</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="total">Итого : 2 00 ₽</div>
+    <button class="btn ordered"><a href="success.html">Оформить</a></button>
+</section>
+
+</body>
+</html>
